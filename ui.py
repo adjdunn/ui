@@ -4,7 +4,7 @@ from datetime import datetime
 from app import get_company_news
 
 # Toggle authentication on/off
-REQUIRE_AUTH = False
+REQUIRE_AUTH = True
 
 def check_password():
     """Returns `True` if the user had the correct password."""
